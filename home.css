@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home {
+    position: relative;
+    height: 85vh; /* A képernyő teljes magassága */
+    background-image: url('../src/images/cover.jpg'); /* A kép elérési útja */
+    background-size: cover; /* A kép méretének beállítása a háttér teljes területére */
+    background-position: center; /* A kép pozíciója középre igazítva */
+    color: #fff; /* Szöveg színe a háttér előtt */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .hero-content {
+    z-index: 1; /* A szöveg előtérbe helyezése a háttérkép elé 
+  }
+   */
